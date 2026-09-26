@@ -10,8 +10,16 @@ hero:
   actions:
     - theme: brand
       text: 下载
-      link: /windows/install
+      link: /download
     - theme: alt
-      text: 使用文档
+      text: 文档
       link: /guide/
 ---
+
+::: center
+
+## 全网千万次下载
+
+国内月活用户 30 万+，海外月活用户 7 万+
+
+:::
