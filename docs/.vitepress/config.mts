@@ -10,6 +10,10 @@ export default defineConfig({
     nav: [
       { text: '文档', link: '/guide/' }
     ],
+    outline: { label: '本页目录' },
+    sidebarMenuLabel: '菜单',
+    darkModeSwitchLabel: '外观',
+    returnToTopLabel: '返回顶部',
     sidebar: [
       { text: '简介', link: '/guide/' },
       { text: '下载', link: '/download' },
