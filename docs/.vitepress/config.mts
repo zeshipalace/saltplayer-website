@@ -12,7 +12,13 @@ export default defineConfig({
     ],
     sidebar: [
       { text: '简介', link: '/guide/' },
-      { text: '下载', link: '/download' }
+      { text: '下载', link: '/download' },
+      {
+        text: 'Android',
+        items: [
+          { text: '更新日志', link: '/android/changelog' }
+        ]
+      }
     ]
   }
 })
