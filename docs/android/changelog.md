@@ -1,6 +1,7 @@
 # Salt Player for Android 更新日志
 
-* 一般仅记录公开发布版本，部分 dev/alpha 版本不记录
+一般仅记录公开发布版本，部分 dev/alpha 版本不记录
+
 问题跟踪反馈：https://github.com/Moriafly/SaltPlayerSource/issues
 
 ## 12.4.0-beta02-2026092702
