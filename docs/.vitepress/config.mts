@@ -22,7 +22,8 @@ export default defineConfig({
       {
         text: 'Android',
         items: [
-          { text: '更新日志', link: '/android/changelog' }
+          { text: '更新日志', link: '/android/changelog' },
+          { text: 'OEM 兼容性', link: '/android/oem-compatibility' }
         ]
       }
     ]
