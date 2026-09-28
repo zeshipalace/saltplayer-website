@@ -17,7 +17,7 @@
 |:-- |:-- |:-- |
 | 音乐控制中心 | 🔴 | 白名单控制，相关功能应该官方不进行后续支持 |
 
-## vivo OriginOS/Funtouch OS
+## vivo OriginOS / Funtouch OS
 
 | 项目 | 状态 | 说明 |
 |:-- |:-- |:-- |
