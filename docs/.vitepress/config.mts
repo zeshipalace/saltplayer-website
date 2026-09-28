@@ -17,6 +17,8 @@ export default defineConfig({
     sidebar: [
       { text: '简介', link: '/guide/' },
       { text: '下载', link: '/download' },
+      { text: '歌词', link: '/lyrics' },
+      { text: 'Morvanium', link: '/morvanium' },
       {
         text: 'Android',
         items: [
