@@ -25,6 +25,12 @@ export default defineConfig({
           { text: '更新日志', link: '/android/changelog' },
           { text: 'OEM 兼容性', link: '/android/oem-compatibility' }
         ]
+      },
+      {
+        text: 'iOS',
+        items: [
+          { text: '更新日志', link: '/ios/changelog' }
+        ]
       }
     ]
   }
