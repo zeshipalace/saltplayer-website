@@ -18,6 +18,13 @@ export default defineConfig({
       { text: '简介', link: '/guide/' },
       { text: '下载', link: '/download' },
       { text: '歌词', link: '/lyrics' },
+      {
+        text: '音频',
+        link: '/audio',
+        items: [
+          { text: 'USB 独占模式', link: '/audio/usb-exclusive' }
+        ]
+      },
       { text: 'Morvanium', link: '/morvanium' },
       {
         text: 'Android',
