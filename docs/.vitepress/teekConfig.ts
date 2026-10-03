@@ -45,6 +45,7 @@ export const teekConfig = defineTeekConfig({
   },
   footerInfo: {
     theme: {
+      show: false, // 隐藏页脚的主题署名
       name: `Theme By Teek@${version}`,
       link: 'https://github.com/Kele-Bingtang/vitepress-theme-teek'
     },
