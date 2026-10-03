@@ -13,6 +13,7 @@ import 'vitepress-theme-teek/theme-chalk/tk-index-rainbow.css' // 首页图片�
 import 'vitepress-theme-teek/theme-chalk/tk-banner-desc-gradient.css' // Banner 描述渐变样式
 import 'vitepress-theme-teek/theme-chalk/tk-home-card-hover.css' // 首页卡片悬停效果
 import 'vitepress-theme-teek/theme-chalk/tk-fade-up-animation.css' // 首次加载的动画效果
+import './custom.css' // 项目级样式覆盖（修复一级标题渐变与行内 Badge 的重影）
 
 export default {
   extends: Teek

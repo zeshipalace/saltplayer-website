@@ -1,0 +1,6 @@
+/* 一级标题渐变（tk-doc-h1-gradient.css 的 background-clip: text）会把行内 Badge 的文字
+   一并纳入裁剪，而 Badge 自带的 translateY 变换会让裁剪出的文字错位、重影到标题开头。
+   去掉标题内 Badge 的变换即可消除重影，同时保留标题渐变与行内徽标。 */
+.VPDoc h1 .VPBadge {
+  transform: none;
+}
