@@ -43,6 +43,20 @@ export const teekConfig = defineTeekConfig({
       defaultValue: true
     }
   },
+  footerGroup: [
+    {
+      title: '关于',
+      links: [
+        { name: 'Moriafly', link: 'https://moriafly.com' }
+      ]
+    },
+    {
+      title: '相关',
+      links: [
+        { name: 'SaltUI', link: 'https://github.com/Moriafly/SaltUI' }
+      ]
+    }
+  ],
   footerInfo: {
     theme: {
       show: false, // 隐藏页脚的主题署名
