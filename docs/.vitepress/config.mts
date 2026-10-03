@@ -26,6 +26,7 @@ export default defineConfig({
         ]
       },
       { text: 'Morvanium', link: '/morvanium' },
+      { text: '创意工坊', link: '/workshop' },
       {
         text: 'Android',
         items: [
