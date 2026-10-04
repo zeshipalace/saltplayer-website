@@ -4,6 +4,13 @@
 
 问题跟踪反馈：https://github.com/Moriafly/SaltPlayerSource/issues
 
+## 12.4.0-beta03-2026100401
+*对比 12.4.0-beta02*
+- 回归重置歌曲隐藏和恢复功能
+- 提升 minSDK 至 24（Android 7.0）
+- 修复暂停音乐意外释放音频焦点的问题
+- 修复播放界面 FLAC 格式缺少位深显示
+
 ## 12.4.0-beta02-2026092702
 *对比 12.4.0-beta01*
 - 提升 TargetSDK 至 37（Android 17）
