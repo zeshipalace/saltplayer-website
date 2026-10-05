@@ -26,7 +26,13 @@ export default defineConfig({
         ]
       },
       { text: 'Morvanium', link: '/morvanium' },
-      { text: '创意工坊', link: '/workshop' },
+      { 
+        text: '创意工坊',
+        link: '/workshop',
+        items: [
+          { text: '直接 Hook API', link: '/workshop/hook' }
+        ]
+      },
       {
         text: 'Android',
         items: [
