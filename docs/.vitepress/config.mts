@@ -26,11 +26,16 @@ export default defineConfig({
         ]
       },
       { text: 'Morvanium', link: '/morvanium' },
-      { 
+      {
         text: '创意工坊',
         link: '/workshop',
         items: [
-          { text: '直接 Hook API', link: '/workshop/hook' }
+          { text: '安装与管理 Mod', link: '/workshop/usage' },
+          { text: '开发入门', link: '/workshop/getting-started' },
+          { text: '插件配置', link: '/workshop/configs' },
+          { text: '插件权限', link: '/workshop/permissions' },
+          { text: '直接 Hook API', link: '/workshop/hook' },
+          { text: '发布 Mod', link: '/workshop/publishing' }
         ]
       },
       {
