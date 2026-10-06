@@ -8,13 +8,18 @@ export default defineConfig({
   description: 'Salt Player 官方网站与使用文档',
   themeConfig: {
     nav: [
-      { text: '文档', link: '/guide/' }
+      { text: '文档', link: '/guide/' },
+      { text: '新闻', link: '/news/' }
     ],
     outline: { label: '本页目录' },
     sidebarMenuLabel: '菜单',
     darkModeSwitchLabel: '外观',
     returnToTopLabel: '返回顶部',
-    sidebar: [
+    // 多侧边栏：按路径前缀划分独立板块，最具体的前缀优先匹配
+    sidebar: {
+      // 新闻板块不显示侧边栏
+      '/news/': [],
+      '/': [
       { text: '简介', link: '/guide/' },
       { text: '下载', link: '/download' },
       { text: '歌词', link: '/lyrics' },
@@ -51,6 +56,7 @@ export default defineConfig({
           { text: '更新日志', link: '/ios/changelog' }
         ]
       }
-    ]
+      ]
+    }
   }
 })
