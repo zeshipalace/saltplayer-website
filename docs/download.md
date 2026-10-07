@@ -4,7 +4,7 @@
 
 | 渠道 | 链接 |
 |:-- |:-- |
-| Official | [应用宝](https://sj.qq.com/appdetail/com.salt.music) <br> 小米应用商店 <br> OPPO 软件商店 <br> vivo 应用商店 <br> 荣耀应用市场 <br> 华为应用市场 <br> 魅族应用商店 <br> 酷安官网版 |
+| Official | [GitHub](https://github.com/Moriafly/SaltPlayerSource/releases) <br> [应用宝](https://sj.qq.com/appdetail/com.salt.music) <br> 小米应用商店 <br> OPPO 软件商店 <br> vivo 应用商店 <br> 荣耀应用市场 <br> 华为应用市场 <br> 魅族应用商店 <br> 酷安官网版 |
 | Google Play | [下载](https://play.google.com/store/apps/details?id=com.salt.music) |
 
 ::: tip
