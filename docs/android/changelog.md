@@ -4,6 +4,10 @@
 
 问题跟踪反馈：https://github.com/Moriafly/SaltPlayerSource/issues
 
+## 12.4.1-release-2026100701
+- 修复播放页圆角交接
+- 修复播放标题显示条件
+
 ## 12.4.0-release-2026100602
 *对比 12.3.2*
 - 提升 minSDK 至 24（Android 7.0）、TargetSDK 至 37（Android 17）
