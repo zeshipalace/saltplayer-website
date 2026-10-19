@@ -316,7 +316,13 @@ class PlaybackExtension : PlaybackExtensionPoint {
 
 将生成的 `.spmod` 文件按照 [本地导入](usage#本地导入) 步骤安装。启用插件后，应看到 **插件已启用** 提示。
 
-Salt Player 鼓励 Mod 开源，并建议不混淆插件代码。GitHub 分享与 Steam 创意工坊发布流程见 [发布 Mod](publishing)。
+::: warning 注意⚠️
+Salt Player 鼓励 Mod 开源，并建议不混淆插件代码。
+
+这是为了保障用户的最低程度安全
+:::
+
+GitHub 分享与 Steam 创意工坊发布流程见 [发布 Mod](publishing)。
 
 ## 处理插件解析错误
 
