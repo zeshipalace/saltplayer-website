@@ -40,6 +40,7 @@ export default defineConfig({
           { text: '插件配置', link: '/workshop/configs' },
           { text: '插件权限', link: '/workshop/permissions' },
           { text: '直接 Hook API', link: '/workshop/hook' },
+          { text: '插件性能优化', link: '/workshop/performance' },
           { text: '发布 Mod', link: '/workshop/publishing' }
         ]
       },

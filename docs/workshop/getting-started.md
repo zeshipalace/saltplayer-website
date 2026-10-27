@@ -292,7 +292,7 @@ class PlaybackExtension : PlaybackExtensionPoint {
 | `delete()` | 删除插件时执行插件自身的清理逻辑 |
 | `update()` | 通过播放器的本地更新流程更新插件时调用，不保证外部替换文件等更新方式会调用 |
 
-插件可能被反复启停，应在每次 `start()` 中重新建立所需注册，并在 `stop()` 中释放自己持有的资源。快捷键需在 `start()` 线程内注册。快捷键与 Hook 的宿主自动清理规则见 [插件权限](permissions) 和 [直接 Hook API](hook)。
+插件可能被反复启停，应在每次 `start()` 中重新建立所需注册，并在 `stop()` 中释放自己持有的资源。快捷键需在 `start()` 线程内注册。快捷键与 Hook 的宿主自动清理规则见 [插件权限](permissions) 和 [直接 Hook API](hook)，启动与后台任务的建议见 [插件性能优化](performance)。
 
 不要给 `WorkshopApi.instance` 赋值，它由播放器启动时注入。对于标记为 `UnstableSpwWorkshopApi` 的接口，Kotlin 调用方需显式使用 `@OptIn(UnstableSpwWorkshopApi::class)`。
 

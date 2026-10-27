@@ -28,6 +28,7 @@ Mod 可以通过 SPW Workshop API 获取播放状态和歌词、控制播放、�
 - [插件配置](configs)：配置界面、读写设置与变更监听
 - [插件权限](permissions)：权限声明、授权查询与拒绝处理
 - [直接 Hook API](hook)：普通方法 Hook、UI 替换与追加内容
+- [插件性能优化](performance)：启动、后台任务与高频回调
 - [发布 Mod](publishing)：GitHub 分享、Steam 创意工坊发布与更新
 
 ## 开发者资源
