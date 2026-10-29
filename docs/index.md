@@ -23,11 +23,15 @@ hero:
 
 ## 多平台
 
-支持 Android、Windows、HarmonyOS 和 Linux 平台，Apple 平台正在开发中
+目前已提供 Android、Windows、HarmonyOS 和 Linux 版本。iPhone 与 iPad 版本正在准备发布，尚未在 App Store 公开上架。
+
+[了解 iPhone 与 iPad 版本 →](/ios/)
+
+各平台的功能与购买方式有所不同，请以对应平台的介绍与 App 内说明为准。
 
 椒盐音乐 Android 版本与小米、OPPO、魅族等厂商完成多项功能适配：CarWith、流体云（首批）、灵动光环……
 
-椒盐音乐鸿蒙原生版本深度和鸿蒙团队合作推出
+椒盐音乐鸿蒙原生版本深度和鸿蒙团队合作推出。
 
 ## 全网千万次下载
 

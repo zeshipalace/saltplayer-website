@@ -9,6 +9,7 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: '文档', link: '/guide/' },
+      { text: 'iOS', link: '/ios/', activeMatch: '^/ios/' },
       { text: '新闻', link: '/news/' }
     ],
     outline: { label: '本页目录' },
@@ -19,6 +20,18 @@ export default defineConfig({
     sidebar: {
       // 新闻板块不显示侧边栏
       '/news/': [],
+      '/ios/': [
+        {
+          text: 'iPhone 与 iPad',
+          items: [
+            { text: '简介', link: '/ios/' },
+            { text: '开始使用', link: '/ios/getting-started' },
+            { text: 'Pro', link: '/ios/pro' },
+            { text: '音频', link: '/ios/audio' },
+            { text: '帮助与反馈', link: '/ios/#support' }
+          ]
+        }
+      ],
       '/': [
       { text: '简介', link: '/guide/' },
       { text: '下载', link: '/download' },
@@ -53,7 +66,10 @@ export default defineConfig({
       },
       {
         text: 'iOS',
+        link: '/ios/',
         items: [
+          { text: '简介', link: '/ios/' },
+          { text: '开始使用', link: '/ios/getting-started' },
           { text: '更新日志', link: '/ios/changelog' }
         ]
       }

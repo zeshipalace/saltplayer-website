@@ -1,5 +1,9 @@
 # 下载
 
+## iPhone 与 iPad
+
+iOS 版本尚未公开发布，正式上架后将在 [iOS 专页](/ios/) 提供 App Store 下载入口。
+
 ## Android
 
 | 渠道 | 链接 |
