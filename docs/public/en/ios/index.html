@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Salt Player for iPhone and iPad: a home for your own music collection, with help and support.">
+  <title>Salt Player for iPhone and iPad</title>
+  <style>
+    :root { color-scheme: light dark; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f6f8fc; color: #202a3b; line-height: 1.6; }
+    a { color: #0563cf; text-underline-offset: .2em; }
+    main, header, footer { width: min(100% - 40px, 920px); margin-inline: auto; }
+    header { padding: 28px 0; display: flex; justify-content: space-between; gap: 16px; align-items: center; }
+    header a { color: inherit; text-decoration: none; }
+    .brand { font-weight: 700; letter-spacing: -.02em; }
+    .hero { padding: 64px 0 54px; }
+    .eyebrow { color: #0563cf; font-weight: 700; font-size: .9rem; }
+    h1 { font-size: clamp(2.7rem, 8vw, 4.8rem); line-height: 1.06; letter-spacing: -.055em; margin: 14px 0 20px; }
+    h2 { letter-spacing: -.025em; line-height: 1.2; }
+    .lead { max-width: 650px; font-size: 1.2rem; color: #526078; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 16px; }
+    .card, .support { background: #fff; border: 1px solid #e4eaf3; border-radius: 20px; padding: 26px; }
+    .card h2, .support h2 { margin-top: 0; font-size: 1.18rem; }
+    .card p, .support p { margin-bottom: 0; color: #526078; }
+    .support { margin: 24px 0 48px; }
+    footer { padding-bottom: 36px; color: #69768c; font-size: .9rem; }
+    footer a { margin-right: 18px; }
+    @media (prefers-color-scheme: dark) {
+      body { background: #111722; color: #edf2fa; }
+      a, .eyebrow { color: #7db8ff; }
+      .lead, .card p, .support p, footer { color: #afbed1; }
+      .card, .support { background: #1b2432; border-color: #303d50; }
+    }
+  </style>
+</head>
+<body>
+  <header><a class="brand" href="/en/ios/">Salt Player</a><a href="#support">Support</a></header>
+  <main>
+    <section class="hero">
+      <div class="eyebrow">FOR IPHONE AND IPAD</div>
+      <h1>Your music, your way.</h1>
+      <p class="lead">Salt Player is a local music player for the collection you already own. Bring your files, organize your library, and listen with lyrics.</p>
+      <p>Requires iOS 17 or iPadOS 17 and later.</p>
+    </section>
+    <section class="cards" aria-label="Features">
+      <div class="card"><h2>Bring your collection</h2><p>Add a music folder from Files, transfer audio from a computer on the same local network, or add accessible songs from your system music library.</p></div>
+      <div class="card"><h2>Listen and organize</h2><p>Browse your library, create playlists, use background playback and view lyrics. Local playback does not require an account or an Apple Music subscription.</p></div>
+      <div class="card"><h2>Optional Pro</h2><p>Unlock features including the equalizer, tag editing, spectrum animation, iCloud sync and CarPlay. Choose a monthly or yearly subscription or a one-time purchase; prices are shown in the app.</p></div>
+    </section>
+    <section class="support" id="support">
+      <h2>Support</h2>
+      <p>Need help with Salt Player for iPhone or iPad? Email <a href="mailto:support@xuncorp.com">support@xuncorp.com</a>. Please include your app version, device model, iOS or iPadOS version, and the steps to reproduce the issue.</p>
+      <p>Do not send your Apple Account password, purchase credentials or entire music library.</p>
+    </section>
+  </main>
+  <footer><a href="https://xuncorp.com/salt/player/privacy_policy_en.html">Privacy Policy</a><a href="https://xuncorp.com/salt/player/terms_of_user_en.html">Terms of Use</a><span>© 2026 Xuncorp</span></footer>
+</body>
+</html>
